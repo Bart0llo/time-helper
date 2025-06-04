@@ -1,0 +1,53 @@
+{
+	"name": "time-helper",
+	"version": "0.0.0",
+	"description": "A simple time conversion utility (UTC, Epoch, Date)",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup src/index.ts --format cjs,esm",
+		"dev": "tsup src/index.ts --watch",
+		"clean": "rm -rf dist",
+		"lint": "eslint . --ext .ts",
+		"format": "prettier --write .",
+		"release": "release-it"
+	},
+	"keywords": [
+		"time",
+		"utc",
+		"unix",
+		"epoch",
+		"timestamp",
+		"date",
+		"typescript",
+		"helper"
+	],
+	"author": "Bart0llo",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^8.33.1",
+		"@typescript-eslint/parser": "^8.33.1",
+		"eslint": "^9.28.0",
+		"prettier": "^3.5.3",
+		"release-it": "^19.0.3",
+		"tsup": "^8.5.0",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"moment": "^2.30.1",
+		"moment-timezone": "^0.6.0"
+	}
+}
