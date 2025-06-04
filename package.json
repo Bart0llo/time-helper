@@ -1,14 +1,13 @@
 {
-	"name": "time-helper",
+	"name": "@bart0llo/time-helper",
 	"version": "0.0.0",
 	"description": "A simple time conversion utility (UTC, Epoch, Date)",
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.mjs",
-	"types": "./dist/index.d.ts",
+	"main": "./dist/cjs/index.js",
+	"module": "./dist/esm/index.js",
 	"exports": {
 		".": {
-			"require": "./dist/index.cjs",
-			"import": "./dist/index.mjs"
+			"require": "./dist/cjs/index.js",
+			"import": "./dist/esm/index.js"
 		}
 	},
 	"files": [
