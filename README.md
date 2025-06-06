@@ -18,7 +18,7 @@ A simple, TypeScript-ready utility for working with timezones, UNIX epochs, and 
 ## 📦 Installation
 
 ```bash
-npm install time-helper
+npm install @bart0llo/time-helper
 ```
 
 ---
@@ -26,7 +26,7 @@ npm install time-helper
 ## 🚀 Quick Start
 
 ```ts
-import { TimeHelper } from 'time-helper'
+import { TimeHelper } from '@bart0llo/time-helper'
 
 const time = new TimeHelper('UTC+2')
 
