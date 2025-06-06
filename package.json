@@ -4,6 +4,7 @@
 	"description": "A simple time conversion utility (UTC, Epoch, Date)",
 	"main": "./dist/cjs/index.js",
 	"module": "./dist/esm/index.js",
+	"types": "./dist/cjs/index.d.ts",
 	"exports": {
 		".": {
 			"require": "./dist/cjs/index.js",
@@ -33,6 +34,11 @@
 	],
 	"author": "Bart0llo",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bart0llo/time-helper.git"
+	},
+	"homepage": "https://github.com/bart0llo/time-helper#readme",
 	"publishConfig": {
 		"access": "public"
 	},
