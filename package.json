@@ -1,6 +1,6 @@
 {
 	"name": "@bart0llo/time-helper",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "A simple time conversion utility (UTC, Epoch, Date)",
 	"main": "./dist/cjs/index.js",
 	"module": "./dist/esm/index.js",
